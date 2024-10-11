@@ -3,6 +3,13 @@ const https = require('https');
 const bodyparser = require('body-parser');
 const app = express();
 
+const config = require('./secrets.json');
+
+
+const apiKey = config.apiKey;
+const listId = config.listId;
+
+
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({ extended: true }));
 
@@ -29,13 +36,13 @@ app.post("/", function (req, res) {
     };
 
     var jsondata = JSON.stringify(data);
-    const url = "https://us9.api.mailchimp.com/3.0/lists/7788eea234";
+    const url = "https://us9.api.mailchimp.com/3.0/lists/"+listId;
     
     const options = {
         method: "POST",
     
         headers: {
-            Authorization:"auth b3ea95824636c6b633c409636a6f7ed2-us9"
+            Authorization:"auth "+apiKey
         }
     };
 
