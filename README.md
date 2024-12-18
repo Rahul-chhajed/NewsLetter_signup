@@ -13,5 +13,5 @@ Check out the project here: [Newsletter Signup Project](https://github.com/Rahul
 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** [Node.js , Express]
-- **API Integration:** [Mailchimp API for managing email subscriptions]
+- **Backend:** Node.js , Express
+- **API Integration:** Mailchimp API for managing email subscriptions
