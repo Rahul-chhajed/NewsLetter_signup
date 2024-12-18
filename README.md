@@ -3,7 +3,7 @@
 ## Description
 This is a simple **Newsletter Signup** project that allows users to subscribe to a newsletter via Mailchimp by entering their email. The project captures and validates the email address entered by the user and then processes it accordingly.
 
-Check out the project here: [Newsletter Signup Project](https://github.com/Rahul-chhajed/newsletter-signup)
+Check out the project here: [Newsletter Signup Project](https://github.com/Rahul-chhajed/NewsLetter_signup)
 
 ## Features
 - **Email Validation:** Validates the email format before submission.
